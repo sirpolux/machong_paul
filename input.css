@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@source "./index.html";
+
+    @theme { --font-sans: "DM Sans", sans-serif; --font-display: "Space Grotesk", sans-serif; --color-ink: #101d2c; --color-accent: #a9e8cd; }
+    html { scroll-behavior: smooth; }
+    body { background: #f6f7f4; color: #101d2c; }
+    ::selection { background: #a9e8cd; color: #101d2c; }
+    .section-label { @apply text-xs font-bold uppercase tracking-[.22em] text-emerald-700; }
+    .section-title { @apply mt-3 font-display text-3xl font-semibold tracking-tight md:text-5xl; }
+    .pill { @apply rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600; }
+    .project { @apply rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg md:p-8; }
+    .action { @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-bold transition focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-500; }
