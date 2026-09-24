@@ -344,5 +344,3 @@ Email:
 This repository contains personal portfolio content, project descriptions, branding, and professional information belonging to Machong Paul.
 
 The source code may be referenced for learning purposes, but personal content, branding, project descriptions, and assets should not be reused without permission.
-
-
